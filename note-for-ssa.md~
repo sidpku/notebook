@@ -1,0 +1,21 @@
+# SSA使用指南
+参考文献：
+
+:book: HASSANI H. Singular spectrum analysis: methodology and comparison [J]. 2007, 
+
+## decomposite
+
+L: window length
+T: period
+N: length of time series
+
+条件：
+1. L < $frac{N}{2}$
+2. L = kT (k is constant)
+
+
+## reconstruct
+
+information:
+> 1. every harmonic component with a different frequency produce 2 eigentriples with close singular values.
+> 2. a pure noise series produce slowly decreasing eigenvalue spectra.
