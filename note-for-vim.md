@@ -11,5 +11,8 @@ filetype indent on % 开启文件类型检查，并匹配缩进规则。
 set textwidth = 80 % 设置每行80个字符宽度
 set showmatch	% 自动高亮匹配的大括号 
 ```
+## 基本操作
 
+### 查看字数
 
+`V5jg`后接`Ctrl+g`统计选定区域的单词数量。
