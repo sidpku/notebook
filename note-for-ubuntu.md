@@ -5,12 +5,25 @@
 > passwd <username>	% change password for user: username
 ```
 
-
-
-	## SSH
+## SSH
 
 ```bash
 # remote log in without break out from time to time
 > ssh -o serveraliveinterval=60 username@hostIP 
 ```
 
+## 语言
+
+打开txt，出现中文乱码的情况
+参考：[Ubuntu 18.04 中TXT中文显示乱码的解决办法](https://www.jrjxdiy.com/linux/ubuntu-18-04-the-solution-of-displaying-messy-code-in-chinese-for-txt-file.html)
+
+```bash
+sudo apt install dconf-tools
+
+dconf-editor
+```
+打开 `org/gnome/gedit/preferences/encodings/candidate-encodings` 
+
+* 关闭`Using default values`
+
+* `custom values` 添加`['UTF-8′,'GB18030′,'GB2312′,'GBK’,'BIG5′,'CURRENT','UTF-16′]`
