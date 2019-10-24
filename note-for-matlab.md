@@ -738,3 +738,14 @@ ylabel('degrees latitude')
 3. 更新Toolbox路径
 
    `主页`:arrow_right:`预设`:arrow_right:`常规` 点击`更新工具箱路径缓存`
+
+
+
+## Command Line Mode
+
+命令行下常见命令
+|命令|作用|
+|---|---|
+|`cd`|查看当前路径|
+|`who`|查看工作区变量|
+
