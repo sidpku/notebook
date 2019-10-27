@@ -48,3 +48,4 @@
   * `### Section type 3######`
 
 :globe_with_meridians: [Code Folding and Sections](https://support.rstudio.com/hc/en-us/articles/200484568-Code-Folding-and-Sections)
+
