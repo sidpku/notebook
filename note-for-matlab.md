@@ -424,7 +424,7 @@ plot(x,y);
 ylabel('right side');
 ```
 hold的效果：
-![xxx](/note-for-matlab/绘图控件函数hold的用法.jpg)
+![xxx](note-for-matlab/绘图控件函数hold的用法.jpg)
 
 ```matlab
 [x,y]=meshgrid(-2,.2,2);
@@ -434,7 +434,7 @@ subplot(1,3,2);mesh(y);title('y');
 subplot(1,3,3);mesh(x,y,z);title('z');
 ```
 subplot函数的效果图：
-![xxx](/note-for-matlab/绘图函数控件-subplot函数的效果图.jpg)
+![xxx](note-for-matlab/绘图函数控件-subplot函数的效果图.jpg)
 
 #### pcolor函数
 

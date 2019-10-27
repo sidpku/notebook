@@ -59,6 +59,12 @@ fprintf('The Root is : %f \n',y);
 fprintf('No. of Iterations : %d\n',i);
 ```
 
+Code is from File Exchange by MathWorks
+
+:globe_with_meridians:[File Exchange, The Newton - Raphson Method](https://ww2.mathworks.cn/matlabcentral/fileexchange/68885-the-newton-raphson-method)
+
+
+
 #### Another Method in R
 
 ```R
@@ -69,7 +75,6 @@ k = uniroot(f,c(0.001,1))$root
 ![](R-script/plot-2019-10-27.png)
 
 <center>the figure of function between [0,1]</center>
-
 Thanks to Sun Sihan. He offered the code.
 
 ### The U-test
