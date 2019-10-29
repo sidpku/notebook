@@ -5,12 +5,68 @@
 > passwd <username>	% change password for user: username
 ```
 
+## Shell
+
+### Zsh
+
+#### sudo
+
+**Install**
+
+```Bash
+$ vim ~/.zshrc
+# add "sudo" to the plugins list
+```
+
+
+
+#### autojump
+
+**Install**
+
+```Bash
+$ sudo apt install python
+$ git clone git://github.com/wting/autojump.git
+$ cd autojump
+$ ./install.py
+$ vim ~/.zshrc
+# add "autojump" to the plugin 
+```
+
+#### zsh-syntax-highlighting
+
+**Install**
+
+```Bash
+$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+$ vim ~/.zshrc
+# add to the plugins
+
+$ source ~/.zshrc
+```
+
+#### zsh-autosuggestions
+
+**Install**
+
+```Bash
+$ git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
+$ vim ~/.zshrc
+$ source ~/.zshrc
+```
+
+
+
 ## SSH
 
 ```bash
 # remote log in without break out from time to time
 > ssh -o serveraliveinterval=60 username@hostIP 
 ```
+
+
 
 ## 语言
 
