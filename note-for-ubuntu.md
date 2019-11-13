@@ -83,3 +83,40 @@ dconf-editor
 * 关闭`Using default values`
 
 * `custom values` 添加`['UTF-8′,'GB18030′,'GB2312′,'GBK’,'BIG5′,'CURRENT','UTF-16′]`
+
+
+
+## SSR
+
+* SSR client
+* airfield
+
+### SSR client
+
+Howto:  [在ubuntu18.04上使用SSR](http://x-armin.com/%E5%9C%A8Ubuntu%E4%B8%8A%E4%BD%BF%E7%94%A8SSR/)
+
+Install_bag:  [github-qingshuisiyuan](https://github.com/qingshuisiyuan)
+
+1. download install bag: electron-ssr
+
+   * lastest version is 0.2.6 
+   * use deb version
+
+2. start to install
+
+   ```bash
+   > sudo dpkg -i install xxxxxxxx.deb
+   
+   # there may be some wrong information
+   # use apt to solve the wrong dependence
+   
+   > sudo apt -f install
+   > sudo dpkg -i install xxxxxxxxx.deb
+   ```
+
+   Success!
+
+### Airfield
+
+From: BBS network tech
+
